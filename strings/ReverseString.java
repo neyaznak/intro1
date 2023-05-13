@@ -1,16 +1,12 @@
 package strings;
-
 import java.util.Scanner;
 
 public class ReverseString {
-	
-
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
 		String str = s.nextLine();
 		String str1=reverseString(str);
 		System.out.print(str1);
-		
 	}
 
 	public static String reverseString(String str) {
@@ -23,5 +19,4 @@ public class ReverseString {
 		}
 		return ans;
 	}
-
 }
